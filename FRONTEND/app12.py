@@ -71,7 +71,7 @@ if 'chat_history' not in st.session_state:
     st.session_state.chat_history = []
 
 # ------------------- Gemini API Key -------------------
-GEMINI_API_KEY = "AIzaSyDnhv49UAlVl8JiBvj9eydvAJCENBPeBGI"
+GEMINI_API_KEY = "INSERT API KEY HERE"
 
 gemini_model = None
 if GEMINI_API_KEY:
